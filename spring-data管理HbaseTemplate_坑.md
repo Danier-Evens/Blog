@@ -1,9 +1,7 @@
-## spring-data管理HbaseTemplate bug
-
 ### 背景:
 
 * 使用spring xml配置管理初始化HbaseTemplate，并使用HbaseTemplate API时存在bug，每次查询都会建立connection，这样会存在并发查询的时候大量时间浪费在connection建立上。
-* spring-data-hadoop版本为2.2.0.RELEASE，测试对比过 `ConnectionFactory创建并使connection全局共享`和`通过spring管理的方式`，对应如下图1、图2对比，监控的指标分别为： 查询耗时、应用GC、机器与HBase服务网络情况。其中应用GC、机器与HBase服务网络情况都比较良好。查询耗时通过使用spring管理的connection查询非常不稳地。本文后面会从源码进行解析bug所在。同时对比了2.5.0.RELEASE源码都有类似的问题。2.3.0.RELEASE、2.4.0.RELEASE估计也没差~
+* spring-data-hadoop版本为2.2.0.RELEASE，测试对比过 `ConnectionFactory创建并使connection全局共享`和`通过spring管理的方式`，对应如下图1、图2对比，监控的指标分别为： 查询耗时、应用GC、机器与HBase服务网络情况。其中应用GC、机器与HBase服务网络情况都比较良好。查询耗时通过使用spring管理的connection查询非常不稳地。本文后面会从源码进行解析坑所在。同时对比了2.5.0.RELEASE源码都有类似的问题。2.3.0.RELEASE、2.4.0.RELEASE估计也没差~
 
   ![图1](https://raw.githubusercontent.com/Danier-Evens/Markdown_Image/master/image/hbase_query01.png)
   
