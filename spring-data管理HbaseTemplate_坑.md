@@ -225,6 +225,12 @@ public class HbaseUtils {
             }
             if (table != null) {
                 try {
+		  //关闭的逻辑在这个方法里边，但是里边有一个变量cleanupConnectionOnClose控制了关闭与否，
+                  //这个变量初始化在new Table(....)里。当使用spring管理时，它始终为true，所以connection会被关闭。
+                  //当非spring管理的时候，是这么获取的，connection.getTable(TableName.valueOf(tableName));  
+                  //跟踪代码发现cleanupConnectionOnClose始终为false, 
+                  //并且HTable中的connection属性是通过参数赋值，
+                  //即为HbaseUtils初始化的connection对象。所以关键在于HTableInterface的创建方式。
                     table.close();
                 } catch (IOException e) {
                     e.printStackTrace();
