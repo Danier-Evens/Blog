@@ -82,7 +82,7 @@
 	 	![图1](https://raw.githubusercontent.com/Danier-Evens/Markdown_Image/master/image/ambari/ambari-setup.png)
 	* 如果需要修改Ambari访问端口，`vim /etc/ambari-server/conf/ambari.properties` 添加`client.api.port=8090`
 	* `ambari-server start`
-	* [访问](http://172.17.41.241:8090) (账号：`admin`  密码：`admin`)
+	* http://xxxxx:8090(账号：`admin`  密码：`admin`)
 	
 2. HDP
    * 按照Ambari添加集群向导，新增集群名称。
@@ -148,3 +148,4 @@
  		```
  	* 执行 `make apps`
  	* 执行 `build/env/bin/./supervisor -d`启动
+	* 访问 http://xxxx:8888
