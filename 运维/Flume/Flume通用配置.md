@@ -64,7 +64,7 @@
 
 * 发送至kafka时，topic可不配置，需要数据来源的数据中将topic加入header中。[参考](http://flume.apache.org/FlumeUserGuide.html#kafka-sink)
 
- > Note Kafka Sink uses the topic and key properties from the FlumeEvent headers to send events to Kafka. If topic exists in the headers, the event will be sent to that specific topic, overriding the topic configured for the Sink. If key exists in the headers, the key will used by Kafka to partition the data between the topic partitions. Events with same key will be sent to the same partition. If the key is null, events will be sent to random partitions.
+    > Note Kafka Sink uses the topic and key properties from the FlumeEvent headers to send events to Kafka. If topic exists in the headers, the event will be sent to that specific topic, overriding the topic configured for the Sink. If key exists in the headers, the key will used by Kafka to partition the data between the topic partitions. Events with same key will be sent to the same partition. If the key is null, events will be sent to random partitions.
 
 * 场景2服务端配置
 
@@ -107,9 +107,9 @@
 
 ### 四、客户端agent配置样例
 
-    * 针对场景1的配置
+   * 针对场景1的配置
 
-    ```
+        ```
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -159,8 +159,8 @@
     ```
 
     * 针对场景2的配置
-
-    ```
+    
+        ```
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -206,7 +206,8 @@
 
     * 对于大多数场景下，日志文件基本都是按天存储，Flume提供了Taildir Source、Spooling Directory Source、以及Exec Source。此处以Exec Source为例
 
-    ```
+        ```
+    
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -249,11 +250,12 @@
     demo.sources.r1.channels = c1
     demo.sinks.k1.channel = c1
     demo.sinks.k2.channel = c1
+    
     ```
 
 ### 五、自定义source、channel、sink
 
-    * [custom-flume-plugin](https://github.com/Danier-Evens/custom-flume-plugin)
+   * [custom-flume-plugin](https://github.com/Danier-Evens/custom-flume-plugin)
 
 
 
