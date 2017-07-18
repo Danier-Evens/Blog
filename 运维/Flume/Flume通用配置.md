@@ -107,9 +107,9 @@
 
 ### 四、客户端agent配置样例
 
-   * 针对场景1的配置
-
-        ```
+   * 针对场景1的配置    
+   
+    ```
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -158,9 +158,9 @@
     demo.sinks.k2.channel = c1
     ```
 
-    * 针对场景2的配置
-    
-        ```
+   * 针对场景2的配置  
+       
+    ```
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -204,10 +204,9 @@
     demo.sinks.k2.channel = c1
     ```
 
-    * 对于大多数场景下，日志文件基本都是按天存储，Flume提供了Taildir Source、Spooling Directory Source、以及Exec Source。此处以Exec Source为例
-
-        ```
+   * 对于大多数场景下，日志文件基本都是按天存储，Flume提供了Taildir Source、Spooling Directory Source、以及Exec Source。此处以Exec Source为例     
     
+    ```
     # demo.conf: A single-node Flume configuration
 
     # Name the components on this agent
@@ -250,7 +249,6 @@
     demo.sources.r1.channels = c1
     demo.sinks.k1.channel = c1
     demo.sinks.k2.channel = c1
-    
     ```
 
 ### 五、自定义source、channel、sink
