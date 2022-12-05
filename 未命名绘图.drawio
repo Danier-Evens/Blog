@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T16:01:59.556Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6Xr4FONCX9Qo6jYB3Ppz" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T16:04:48.233Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Y6zDTt3kTM9J0zYmb6ev" version="20.2.8" type="github">
   <diagram id="NfunrRq4cAARCLg332PT" name="第 1 页">
-    <mxGraphModel dx="5463" dy="-7960" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4666" dy="-8477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,7 +794,7 @@
         <mxCell id="GG6Al1zUWWnjfLum0q8_-297" value="wedata资源管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="-1625" y="13547.75" width="101.87" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="GG6Al1zUWWnjfLum0q8_-303" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-296" target="GG6Al1zUWWnjfLum0q8_-297">
+        <mxCell id="GG6Al1zUWWnjfLum0q8_-303" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-296" target="GG6Al1zUWWnjfLum0q8_-297">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-990" y="12887.75" as="sourcePoint" />
             <mxPoint x="-940" y="12837.75" as="targetPoint" />
@@ -805,7 +805,7 @@
             <mxPoint x="-2" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GG6Al1zUWWnjfLum0q8_-309" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-329" target="GG6Al1zUWWnjfLum0q8_-296">
+        <mxCell id="GG6Al1zUWWnjfLum0q8_-309" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-329" target="GG6Al1zUWWnjfLum0q8_-296">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1281" y="13383.75" as="sourcePoint" />
             <mxPoint x="-891" y="12950.25" as="targetPoint" />
@@ -816,7 +816,7 @@
             <mxPoint x="-78" y="108" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GG6Al1zUWWnjfLum0q8_-312" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;exitX=0.005;exitY=0.631;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;exitPerimeter=0;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-335" target="GG6Al1zUWWnjfLum0q8_-297">
+        <mxCell id="GG6Al1zUWWnjfLum0q8_-312" value="" style="endArrow=classic;html=1;rounded=1;labelBackgroundColor=none;strokeColor=#3333FF;fontColor=none;exitX=0.005;exitY=0.631;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GG6Al1zUWWnjfLum0q8_-335" target="GG6Al1zUWWnjfLum0q8_-297">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-1281" y="13573.75" as="sourcePoint" />
             <mxPoint x="-1554" y="13550.25" as="targetPoint" />
@@ -824,7 +824,7 @@
         </mxCell>
         <mxCell id="GG6Al1zUWWnjfLum0q8_-313" value="2.补全元数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3333FF;" vertex="1" connectable="0" parent="GG6Al1zUWWnjfLum0q8_-312">
           <mxGeometry x="0.1972" y="-4" relative="1" as="geometry">
-            <mxPoint x="-52" y="69" as="offset" />
+            <mxPoint x="-73" y="98" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="GG6Al1zUWWnjfLum0q8_-317" value="纳管应用组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=2;opacity=50;" vertex="1" parent="1">
@@ -981,9 +981,9 @@
             <mxPoint x="-1153" y="13208" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="GG6Al1zUWWnjfLum0q8_-374" value="&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;api获取资源组\成员&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" vertex="1" connectable="0" parent="GG6Al1zUWWnjfLum0q8_-372">
+        <mxCell id="GG6Al1zUWWnjfLum0q8_-374" value="&lt;span style=&quot;text-align: left; background-color: rgb(248, 249, 250);&quot;&gt;api获取资源组基础信息及成员&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#CC0000;" vertex="1" connectable="0" parent="GG6Al1zUWWnjfLum0q8_-372">
           <mxGeometry x="0.0022" y="-2" relative="1" as="geometry">
-            <mxPoint x="48" y="5" as="offset" />
+            <mxPoint x="23" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
